@@ -1,0 +1,1 @@
+export default function StatCard({label,value,sub}:{label:string,value:any,sub?:string}){return <div className="card p-4"><div className="text-xs text-slate-500">{label}</div><div className="mt-2 text-2xl font-semibold">{value}</div>{sub&&<div className="mt-1 text-xs text-slate-400">{sub}</div>}</div>}
